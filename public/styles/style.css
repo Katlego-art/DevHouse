@@ -1,0 +1,46 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-family: Roboto, serif;
+  color: black;
+}
+
+.main-nav,
+.nav-link ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.quick-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
