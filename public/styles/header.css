@@ -1,0 +1,38 @@
+.main-nav,
+#nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-list li {
+  list-style-type: none;
+}
+
+#nav-list li a,
+#logo a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+#nav-list {
+  gap: 1rem;
+}
+
+#loginButton,
+#signupButton {
+  cursor: pointer;
+  border-width: 0.1rem;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 2rem;
+  border-radius: 0.4rem;
+}
+
+#signupButton {
+  border: none;
+  background-color: #40a829;
+  color: white;
+}
