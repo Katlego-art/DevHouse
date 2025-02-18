@@ -1,15 +1,38 @@
-<header>
-  <nav class="main-nav">
-    <div>DevHouse</div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header</title>
+    <!--Linked the header style -->
+    <link rel="stylesheet" href="/styles/header.css" />
+  </head>
+  <body>
+    <!--This is the header/ navbar of the website-->
+    <header>
+      <nav class="main-nav">
+        
+        <div id="logo"><a href="/">DevHouse</a></div>
 
-    <div class="nav-link">
-      <ul>
-        <li><a href="">Software engineering</a></li>
-        <li><a href="">Data</a></li>
-        <li><a href="">Quant</a></li>
-        <li><a href="">Networking</a></li>
-        <li><a href="">Cybersecurity</a></li>
-      </ul>
-    </div>
-  </nav>
-</header>
+        <div class="nav-link">
+          <ul id="nav-list">
+            <li><a href="">Home</a></li>
+            <li><a href="">Software engineering</a></li>
+            <li><a href="">Data</a></li>
+            <li><a href="">Quant</a></li>
+            <li><a href="">Networking</a></li>
+            <li><a href="">Cybersecurity</a></li>
+          </ul>
+        </div>
+
+        <div id="nav-buttons">
+
+          <input id="loginButton" type="button" value="Login" />
+
+          <input id="signupButton" type="button" value="Get started" />          
+
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
