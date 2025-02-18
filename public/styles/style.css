@@ -1,16 +1,88 @@
-*{
+* {
   padding: 0;
   margin: 0;
-  font-family: Roboto, serif;
-  line-height: 1.4px;
-  color: hsl(0, 0%, 0%);
+  font-family: Roboto serif;
+  line-height: 1.4;
+  
 }
 
-
-body{
+body {
   margin-left: 2.8vw;
   margin-right: 2.8vw;
 }
 
+main {
+  margin-top: 5rem;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 45vh;
+}
+
+#hero-info,
+#mian-heading {
+  margin-bottom: 1rem;
+}
+
+#mian-heading{
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+
+#heading-info {
+  text-align: center;
+}
+
+#login-button {
+  padding: 0.5rem 2rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  border-width: 0.1rem;
+  border-color: grey;
+}
+
+#login-button,
+#signup-button {
+  cursor: pointer;
+}
+
+#signup-button {
+  border: none;
+  background-color: #1db954;
+  color: white;
+  padding: 0.7rem 2.5rem 0.7rem;
+  border-radius: 0.5rem;
+}
+
+#industries-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  gap: 2rem;
+}
+
+.inductry-section > h2{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+
+}
+
+#Resources-tools-section{
+  display: flex;
+  align-items: center;
+  height: 20rem;
+  border: solid gray;
+  gap: 10rem;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+}
 
 

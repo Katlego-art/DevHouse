@@ -11,48 +11,53 @@
       rel="stylesheet"
     />
     <!--CSS Styles links-->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
     <!-- Main styles -->
-    <link rel="stylesheet" href="css/header.css" />
-    <!-- Header-specific styles -->
-    <link rel="stylesheet" href="css/footer.css" />
-    <!-- Footer-specific styles -->
-    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="/styles/layout.css" />
     <!-- Layout styles -->
-    <link rel="stylesheet" href="css/buttons.css" />
+    <link rel="stylesheet" href="/styless/buttons.css" />
     <!-- Button styles -->
   </head>
 
   <body>
     <%- include("partials/header.ejs") %>
-
-    <mian>
+    <main>
       <!--landing page section-->
       <section class="hero-section">
-        <div>
-          <h1>One place where tech enthusiasts meet and share ideas</h1>
-          <p>
-            Interested in learning more about tech and how to improve your
+        <div id="hero-info">
+          <h1 id="mian-heading">
+            One place where tech enthusiasts meet and share ideas
+          </h1>
+
+          <p id="heading-info">
+            Interested in learning more about tech and how to improve your<br />
             skills or break into the industry?
             <span>You've come to the right place!</span>
           </p>
         </div>
-        <div>
-          <input id="" type="button" value="Login" />
-          <input id="" type="button" value="Get started" />
+
+        <div id="hero-button">
+          <input id="login-button" type="button" value="Login" />
+          <input id="signup-button" type="button" value="Get started" />
         </div>
+
       </section>
       <!--career display section-->
       <section class="inductry-section">
         <h2>Choose the industry your interested in!</h2>
 
-        <div id="industries">
+        <div id="industries-grid">
           <div class="career-display">
             <h3>Software Engineering</h3>
             <div>
               <img src="" alt="tech image" />
             </div>
-            <p></p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              tempore iure, voluptate accusamus amet ad hic mollitia nihil.
+              Temporibus, nam! Neque sequi tenetur ad assumenda eum nihil illum
+              adipisci repellendus?
+            </p>
           </div>
 
           <div class="career-display">
@@ -60,7 +65,12 @@
             <div>
               <img src="" alt="tech image" />
             </div>
-            <p></p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur iusto corrupti tempore. Ab officiis iure quasi?
+              Sapiente consectetur dolorum optio, nulla quod doloribus sit omnis
+              quia placeat error a delectus!
+            </p>
           </div>
 
           <div class="career-display">
@@ -68,7 +78,12 @@
             <div>
               <img src="" alt="tech image" />
             </div>
-            <p></p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              itaque ad unde laudantium dolore sunt nam? Dolores ex nesciunt
+              aperiam, officiis magnam ab blanditiis temporibus odio. Aut, illo?
+              Sunt, provident!
+            </p>
           </div>
 
           <div class="career-display">
@@ -76,28 +91,57 @@
             <div>
               <img src="" alt="tech image" />
             </div>
-            <p></p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+              nam magnam modi placeat consectetur architecto vel iusto voluptate
+              temporibus dignissimos, exercitationem corporis nesciunt minus quo
+              mollitia optio consequuntur ab animi.
+            </p>
+          </div>
+
+          <div class="career-display">
+            <h3>Cybersecurity</h3>
+            <div>
+              <img src="" alt="tech image" />
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+              nam magnam modi placeat consectetur architecto vel iusto voluptate
+              temporibus dignissimos, exercitationem corporis nesciunt minus quo
+              mollitia optio consequuntur ab animi.
+            </p>
+          </div>
+          <div class="career-display">
+            <h3>Hacker</h3>
+            <div>
+              <img src="" alt="tech image" />
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+              nam magnam modi placeat consectetur architecto vel iusto voluptate
+              temporibus dignissimos, exercitationem corporis nesciunt minus quo
+              mollitia optio consequuntur ab animi.
+            </p>
           </div>
         </div>
       </section>
 
       <!--tech resourceses and tools section-->
       <section id="Resources-tools-section">
-        <div>
+        <div class="resources-info">
           <h2>Tech Resources & Tools</h2>
           <p>
             Find important resources and tools to learn from and include in your
             tech stack.
           </p>
+          <button id="resources-button">Learn More</button>
         </div>
 
         <div>
-          <img src="" alt="tech stack image"/>
+          <img src="" alt="tech stack image" />
         </div>
-
-        <button>Learn More</button>
       </section>
-    </mian>
+    </main>
     <!--footer section-->
     <%- include("partials/footer.ejs") %>
   </body>

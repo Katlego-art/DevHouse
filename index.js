@@ -5,13 +5,10 @@ const port = 3000;
 
 app.use(express.static("public"));
 
-app.get("/",(req,res)=>{
+app.get("/", (req, res) => {
   res.render("index.ejs");
 });
 
-
-
-
-app.listen(port, ()=>{
+app.listen(port, () => {
   console.log(`The app is running on port ${port}`);
 });

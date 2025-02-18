@@ -1,3 +1,14 @@
+
+header{  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+}
+
+
+
 .main-nav,
 #nav-list {
   display: flex;
@@ -5,34 +16,41 @@
   align-items: center;
 }
 
+#nav-list {
+  gap: 1rem;
+}
+
+#nav-list li a {
+  text-decoration: none;
+  color: black;
+}
+
 #nav-list li {
   list-style-type: none;
 }
 
-#nav-list li a,
 #logo a {
   text-decoration: none;
   color: black;
-  cursor: pointer;
 }
 
-#nav-list {
-  gap: 1rem;
+#loginButton {
+  padding: 0.5rem 2rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  border-width: 0.1rem;
+  border-color: grey;
 }
 
 #loginButton,
 #signupButton {
   cursor: pointer;
-  border-width: 0.1rem;
-  padding-left: 2rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-right: 2rem;
-  border-radius: 0.4rem;
 }
 
 #signupButton {
   border: none;
-  background-color: #40a829;
+  background-color: #1db954;
   color: white;
+  padding: 0.7rem 2.5rem 0.7rem;
+  border-radius: 0.5rem;
 }
